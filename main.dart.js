@@ -83607,7 +83607,7 @@ l=t.N
 k=t.z
 j=A.h0(A.ah(["Content-type","application/json","Accept","application/json","Authorization","Bearer "+o.a.c],l,k),new A.akK())
 s=6
-return A.P(o.d.uk("https://test-api.foodline.uvera.co/auth/register-device",A.ah(["internal_id",A.oP(A.ah(["internal_iid",c,"serial_number_type",d.toLowerCase()],l,l)),"device_type",b,"device_name",a],l,l),j,k),$async$zQ)
+return A.P(o.d.uk("https://test-api.foodline.uvera.co/auth/register-device",A.ah(["internal_id",A.oP(A.ah(["internal_id",c,"serial_number_type",d.toLowerCase()],l,l)),"device_type",b,"device_name",a],l,l),j,k),$async$zQ)
 case 6:n=f
 A.bR("here is dto internal_id: "+c+", serial_number_type: "+d.toLowerCase()+", device_type: "+b+", device_name: "+a)
 o.N(new A.akL(o))
